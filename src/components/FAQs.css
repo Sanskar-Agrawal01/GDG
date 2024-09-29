@@ -1,0 +1,102 @@
+
+
+.accordion-body {
+    border: 10px solid rgb(225, 225, 225);
+    border-radius: 54px;
+    font-family: 'Product Sans';
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 37.5px;
+    letter-spacing: -0.011em;
+    text-align: left;
+    color: rgba(95, 95, 95, 1);
+
+}
+
+.accordion-button {
+    display: flex; /* Use flexbox for alignment */
+    align-items: center; /* Center items vertically */
+    border: 10px solid rgb(225, 225, 225);
+    border-radius: 54px;
+    font-family: 'Product Sans';
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -0.011em;
+    text-align: left; /* Align text to the left */
+    color: rgba(95, 95, 95, 1);
+}
+
+.accordion-button::before {
+    content: ''; /* Create the arrow */
+    display: inline-block;
+    width: 0; /* No width needed for arrow */
+    height: 0; /* No height needed for arrow */
+    border-left: 0.4em solid transparent; /* Create left side of arrow */
+    border-right: 0.4em solid transparent; /* Create right side of arrow */
+    border-top: 0.4em solid #ffc107; /* Create top side of arrow with desired color */
+    margin-right: 0.5em; /* Space between arrow and text */
+}
+
+/* Remove default Bootstrap arrow */
+.accordion-button::after {
+    display: none;
+}
+
+/* First accordion item arrow color */
+.accordion-item:nth-of-type(1) .accordion-button::before {
+    border-top-color: rgba(219, 68, 55, 1);
+    /* Red arrow */
+}
+
+/* Second accordion item arrow color */
+.accordion-item:nth-of-type(2) .accordion-button::before {
+    border-top-color: rgba(15, 157, 86, 1);
+    /* Blue arrow */
+}
+
+/* Third accordion item arrow color */
+.accordion-item:nth-of-type(3) .accordion-button::before {
+    border-top-color: rgba(66, 133, 244, 1);
+    /* Green arrow */
+}
+
+/* Fourth accordion item arrow color */
+.accordion-item:nth-of-type(4) .accordion-button::before {
+    border-top-color: orange; /* Orange arrow */
+}
+
+/* Fifth accordion item arrow color */
+.accordion-item:nth-of-type(5) .accordion-button::before {
+    border-top-color: rgba(219, 68, 55, 1);
+}
+body {
+  background-color: white; /* Set to your desired background color */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+}
+
+/* Make sure the container is transparent or matches the body */
+.container {
+  background-color: transparent; /* Or set it to white */
+  border: none; /* Remove any default border */
+}
+
+/* Set the accordion's background */
+.accordion {
+  background-color: transparent; /* Transparent or match body color */
+  box-shadow: none; /* Remove shadows */
+}
+h2{
+    font-family: Product Sans;
+font-size: 60px;
+font-weight: 700;
+line-height: 90px;
+letter-spacing: -0.011em;
+text-align: center;
+color: rgba(95, 95, 95, 1);
+
+
+
+}
+  

@@ -1,0 +1,73 @@
+.mission-container {
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .section {
+    background-color: #fff;
+    border-radius: 8px;
+    margin-bottom: 40px;
+    padding: 20px;
+  }
+  
+  .section h2 {
+    position: relative;
+    text-align: center;
+    color: rgba(95, 95, 95, 1);
+    font-family: 'Product Sans', sans-serif;
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 75px;
+  }
+  
+  .mission h2::after,
+  .perspective h2::after,
+  .motivation h2::after {
+    content: '';
+    display: block;
+    width: 206px; /* Width of the underline */
+    height: 6px; /* Height of the underline */
+    position: absolute;
+    left: calc(50% - 103px); /* Center the underline */
+    bottom: -10px; /* Adjust spacing below the text */
+    
+  }
+  
+  .mission h2::after {
+     border: 6px solid rgba(66, 133, 244, 1); /* Blue underline for "Our Mission" */
+  }
+  
+  .perspective h2::after {
+    border: 6px solid rgba(15, 157, 86, 1) /* Red underline for "Our Perspective" */
+  }
+  
+  .motivation h2::after {
+    border: 6px solid rgba(255, 199, 39, 1) /* Green underline for "What Keeps Us Going?" */
+  }
+  
+  .content {
+    display: flex;
+    align-items: center;
+  }
+  
+  .content img {
+    width: auto; /* Adjust as needed */
+  }
+  
+  .content p {
+    font-family: 'Product Sans Medium', sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 45px;
+    letter-spacing: -0.022em;
+    text-align: left;
+    color: rgba(95, 95, 95, 1);
+  }
+  
+  .left .content {
+    flex-direction: row; /* Image on left */
+  }
+  
+  .right .content {
+    flex-direction: row-reverse; /* Image on right */
+  }

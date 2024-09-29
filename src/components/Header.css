@@ -1,0 +1,101 @@
+.header-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-family: 'Product Sans', sans-serif;
+    margin-top: 120px; /* Adjust this value based on your navbar height */
+}
+
+.logo {
+    font-size: 84.99px;
+    font-weight: 700;
+    line-height: 103.1px;
+    margin-bottom: 20px;
+}
+
+.subtext {
+    font-size: 18px;
+    margin-bottom: 30px;
+    width: 935px;
+    height: 126px;
+    padding: 0px 0px 9px 0px;
+    font-family: 'Product Sans', sans-serif;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 42.46px;
+    color: rgba(95, 95, 95, 1);
+}
+
+.illustration {
+    width: 613px;
+    height: auto; /* Maintain aspect ratio */
+}
+
+.RBU-CH {
+    width: 300px;
+    height: auto; /* Maintain aspect ratio */
+    font-family: 'Product Sans', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 60.65px;
+    color: rgba(100, 100, 100, 1);
+}
+
+.btn {
+    font-family:Product Sans;
+    width: 137px;
+    height: auto; /* Maintain aspect ratio */
+    margin-top: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: normal; /* Adjust for better alignment */
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(66, 133, 244, 1);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgba(50, 100, 200, 1);
+}
+
+.know-us-section {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.arrows {
+    display: flex;
+    flex-direction: column; /* Arrange arrows vertically */
+    align-items: center; /* Center arrows horizontally */
+    gap: 5px; /* Space between arrows */
+}
+
+.arrow {
+    width: 38px; /* Set width */
+}
+
+.header-title { /* Use a specific class for h2 */
+    opacity: 1; /* Correct opacity value */
+    font-family: 'Product Sans', sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: normal; /* Adjust for better alignment */
+    letter-spacing: -0.022em;
+    text-align: center;
+    color: rgba(95, 95, 95, 1);
+}
+
+.header-paragraph { /* Use a specific class for p */
+   font-family: 'Open Sans', sans-serif;
+   font-size: 30px;
+   font-weight: bold; /* Use bold for emphasis */
+   text-align: center;
+}
+
+/* Ensure to include the font */
+@import url('https://fonts.googleapis.com/css2?family=Product+Sans&display=swap');

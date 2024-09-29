@@ -1,0 +1,66 @@
+.header-container {
+    position: relative;
+  
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.header-image {
+    width: 100%;
+    position: relative; /* Maintain the relative position */
+}
+
+.header-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Product Sans', sans-serif;
+    font-size: 5rem; /* Adjust size as needed */
+    font-weight: 700;
+    line-height: 105px;
+    letter-spacing: -0.022em;
+    color: rgba(95, 95, 95, 1);
+}
+
+.subheader {
+    font-family: Product Sans;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: -0.011em;
+    text-align: center;
+    color: rgba(95, 95, 95, 1);
+}
+
+.tech-cards {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.tech-card {
+    width: 346px;
+    height: 320px;
+    transition: 0.3s;
+}
+
+.tech-card img {
+    transition: transform 0.3s ease, filter 0.3s ease;
+    /* Smooth hover transition */
+    width: 100%;
+    height: auto; /* Ensures the image scales proportionally */
+}
+
+.tech-card img:hover {
+    transform: scale(1.1);
+    /* Slight zoom-in effect */
+    filter: brightness(1.1);
+    /* Increase brightness on hover */
+}
+
+.tech-card p {
+    margin-top: 10px;
+    font-weight: bold;
+}

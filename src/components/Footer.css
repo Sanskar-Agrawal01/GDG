@@ -1,0 +1,63 @@
+/* Footer.css */
+.footer {
+    background: rgba(236, 236, 236, 1);
+    padding: 20px;
+    text-align: center;
+    font-family: 'Product Sans';
+    position: relative;
+    overflow: hidden;
+    /* Prevents overflow */
+    width: 1260px;
+    height: 432px;
+
+    gap: 0px;
+    opacity: 1px;
+
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+    /* Ensures space for the decorative image */
+}
+
+.footer-left {
+    flex-grow: 1;
+}
+
+.footer-logo {
+    width: 50px;
+}
+
+.contact-info {
+
+      text-align:'left';
+    width: 590px;
+    height: 107px;
+    top: 81px;
+    left: 791px;
+    gap: 0px;
+    opacity: 1px;
+
+}
+
+.social-links img {
+    width: 24px;
+    height: 24px;
+    margin: 0 10px;
+}
+
+.footer-decor {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.decorative-image {
+    width: 100%;
+    height: auto;
+    display: block;
+}
